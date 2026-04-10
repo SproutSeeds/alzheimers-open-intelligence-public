@@ -13,6 +13,7 @@ the private upstream research workspace.
 - [Citation metadata](CITATION.cff)
 - [Zenodo DOI](https://doi.org/10.5281/zenodo.19502035)
 - [Zenodo record](https://zenodo.org/records/19502035)
+- [Hugging Face dataset mirror](https://huggingface.co/datasets/sproutseeds/alzheimers-open-intelligence-public-evidence-seed-v0)
 - [Hugging Face dataset card draft](docs/releases/hugging-face-dataset-card-public-evidence-seed-v0.md)
 
 ## What This Repo Contains
@@ -85,3 +86,4 @@ Release URLs:
 - GitHub release: https://github.com/SproutSeeds/alzheimers-open-intelligence-public/releases/tag/public-evidence-seed-v0
 - Zenodo DOI: https://doi.org/10.5281/zenodo.19502035
 - Zenodo record: https://zenodo.org/records/19502035
+- Hugging Face dataset mirror: https://huggingface.co/datasets/sproutseeds/alzheimers-open-intelligence-public-evidence-seed-v0

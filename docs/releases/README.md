@@ -19,6 +19,8 @@ moment.
 - [Public Evidence Seed v0](public-evidence-seed-v0.md)
 - DOI: [10.5281/zenodo.19502035](https://doi.org/10.5281/zenodo.19502035)
 - Zenodo record: <https://zenodo.org/records/19502035>
+- Hugging Face dataset mirror:
+  <https://huggingface.co/datasets/sproutseeds/alzheimers-open-intelligence-public-evidence-seed-v0>
 
 ## Related Docs
 

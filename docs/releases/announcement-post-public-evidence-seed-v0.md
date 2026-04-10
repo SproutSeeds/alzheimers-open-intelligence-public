@@ -39,6 +39,10 @@ Archival DOI:
 
 - <https://doi.org/10.5281/zenodo.19502035>
 
+Dataset mirror:
+
+- <https://huggingface.co/datasets/sproutseeds/alzheimers-open-intelligence-public-evidence-seed-v0>
+
 Research stewardship:
 
 - Fractal Research Group LLC
