@@ -1,0 +1,259 @@
+schema_version: v0
+manifest_id: alzheimers_public_record_query_manifest_v0
+active_object: alzheimers_public_record_intervention_and_biomarker_dataset
+disease_scope_terms:
+  - Alzheimer Disease
+  - Alzheimer's disease
+  - Mild Cognitive Impairment
+  - dementia
+biomarker_family_terms:
+  - amyloid
+  - tau
+  - p-tau217
+  - neurofilament light
+  - GFAP
+  - neurodegeneration
+  - inflammation
+endpoint_terms:
+  - CDR-SB
+  - ADAS-Cog
+  - MMSE
+  - amyloid PET
+  - tau PET
+  - plasma biomarker
+intervention_priority_families:
+  - monoclonal_antibody
+  - small_molecule
+  - vaccine
+  - device_or_stimulation
+  - lifestyle_or_behavioral
+  - off_patent_repurposing_candidate
+tracked_interventions:
+  - canonical_entity_name: Donepezil
+    intervention_family: small_molecule
+    disease_scope: alzheimers_disease
+    off_patent_status: off_patent
+    alias_terms:
+      - donepezil
+      - aricept
+    preferred_source_systems:
+      - openfda
+      - pubmed
+    source_mode: exact_anchor
+    notes: Symptomatic acetylcholinesterase inhibitor with strong public label surface.
+  - canonical_entity_name: Memantine
+    intervention_family: small_molecule
+    disease_scope: alzheimers_disease
+    off_patent_status: off_patent
+    alias_terms:
+      - memantine
+      - namenda
+    preferred_source_systems:
+      - openfda
+      - clinicaltrials_gov
+    source_mode: exact_anchor
+    notes: Symptomatic NMDA receptor antagonist with trial and regulatory surface.
+  - canonical_entity_name: Rivastigmine
+    intervention_family: small_molecule
+    disease_scope: alzheimers_disease
+    off_patent_status: off_patent
+    alias_terms:
+      - rivastigmine
+      - exelon
+    preferred_source_systems:
+      - openfda
+      - clinicaltrials_gov
+    source_mode: exact_anchor
+    notes: Symptomatic cholinesterase inhibitor already spanning trial and regulatory rows.
+  - canonical_entity_name: Galantamine
+    intervention_family: small_molecule
+    disease_scope: alzheimers_disease
+    off_patent_status: off_patent
+    alias_terms:
+      - galantamine
+      - razadyne
+    preferred_source_systems:
+      - openfda
+      - pubmed
+    source_mode: exact_anchor
+    notes: Symptomatic cholinesterase inhibitor with literature and regulatory surface.
+  - canonical_entity_name: Lecanemab
+    intervention_family: monoclonal_antibody
+    disease_scope: mild_cognitive_impairment
+    off_patent_status: on_patent_or_proprietary
+    alias_terms:
+      - lecanemab
+      - leqembi
+    preferred_source_systems:
+      - openfda
+    source_mode: exact_anchor
+    notes: Anti-amyloid monoclonal antibody with current label and event surface.
+  - canonical_entity_name: Donanemab
+    intervention_family: monoclonal_antibody
+    disease_scope: mild_cognitive_impairment
+    off_patent_status: on_patent_or_proprietary
+    alias_terms:
+      - donanemab
+      - kisunla
+    preferred_source_systems:
+      - openfda
+    source_mode: exact_anchor
+    notes: Anti-amyloid monoclonal antibody with current label and event surface.
+  - canonical_entity_name: Brexpiprazole
+    intervention_family: small_molecule
+    disease_scope: alzheimers_disease
+    off_patent_status: on_patent_or_proprietary
+    alias_terms:
+      - brexpiprazole
+      - rexulti
+    preferred_source_systems:
+      - openfda
+    source_mode: exact_anchor
+    notes: FDA-labeled for agitation associated with dementia due to Alzheimer's disease.
+  - canonical_entity_name: Transcranial Direct Current Stimulation
+    intervention_family: device_or_stimulation
+    disease_scope: alzheimers_disease
+    off_patent_status: not_applicable
+    alias_terms:
+      - tdcs
+      - transcranial direct current stimulation
+    preferred_source_systems:
+      - pubmed
+      - clinicaltrials_gov
+    source_mode: exact_anchor
+    notes: Promoted into the exact-anchor surface after exact review confirmed AD-specific trial-registration and publication support.
+  - canonical_entity_name: Transcranial Electromagnetic Treatment
+    intervention_family: device_or_stimulation
+    disease_scope: alzheimers_disease
+    off_patent_status: not_applicable
+    alias_terms:
+      - temt
+      - transcranial electromagnetic treatment
+      - memorem
+    preferred_source_systems:
+      - clinicaltrials_gov
+      - pubmed
+    source_mode: exact_anchor
+    notes: Promoted into the exact-anchor surface after explicit review confirmed AD-specific multi-source support.
+  - canonical_entity_name: Music Therapy
+    intervention_family: behavioral_or_lifestyle
+    disease_scope: alzheimers_disease
+    off_patent_status: not_applicable
+    alias_terms:
+      - music therapy
+      - singing
+    preferred_source_systems:
+      - clinicaltrials_gov
+      - pubmed
+    source_mode: exact_anchor
+    notes: Promoted into the exact-anchor surface after explicit review confirmed AD-specific trial-registration and publication support while excluding mixed-scope records.
+  - canonical_entity_name: Cortical Brain Stimulation
+    intervention_family: device_or_stimulation
+    disease_scope: alzheimers_disease
+    off_patent_status: not_applicable
+    alias_terms:
+      - cortical brain stimulation
+      - medial prefrontal cortex
+      - dorsolateral prefrontal cortex
+    preferred_source_systems:
+      - clinicaltrials_gov
+    source_mode: candidate_only
+    notes: Seeded through the mPFC and dlPFC stimulation trial surface.
+  - canonical_entity_name: Improvisational Movement
+    intervention_family: behavioral_or_lifestyle
+    disease_scope: alzheimers_disease
+    off_patent_status: not_applicable
+    alias_terms:
+      - improvisational movement
+      - dance group
+      - memory loss caregivers
+    preferred_source_systems:
+      - clinicaltrials_gov
+      - pubmed
+    source_mode: candidate_only
+    notes: Behavioral intervention for people with memory loss and caregivers currently surfaced through trial registration.
+  - canonical_entity_name: EVP-6124
+    intervention_family: small_molecule
+    disease_scope: alzheimers_disease
+    off_patent_status: on_patent_or_proprietary
+    alias_terms:
+      - evp-6124
+      - encenicline
+    preferred_source_systems:
+      - clinicaltrials_gov
+      - pubmed
+    source_mode: exact_anchor
+    notes: Promoted into the exact-anchor surface after exact review confirmed AD-specific trial-registration and publication support.
+source_queries:
+  clinicaltrials_gov:
+    enabled: true
+    query_strategy: condition_and_intervention_surface
+    candidate_follow_on_per_intervention_max: 2
+    focus_fields:
+      - condition
+      - interventionName
+      - primaryOutcomeMeasure
+      - overallStatus
+      - phase
+      - leadSponsorName
+  pubmed:
+    enabled: true
+    query_strategy: mesh_and_keyword_boolean_search
+    candidate_follow_on_per_intervention_max: 2
+    seed_query: '("Alzheimer Disease"[MeSH Terms] OR "Mild Cognitive Impairment"[MeSH Terms]) AND (trial OR biomarker OR intervention OR treatment)'
+  pmc_open_access_subset:
+    enabled: true
+    query_strategy: oa_subset_follow_on_from_pubmed
+    seed_filter: 'pubmed pmc open access[filter]'
+  nih_reporter:
+    enabled: true
+    query_strategy: advanced_text_and_publication_linkage
+    publication_link_sample_limit_per_core_project: 3
+    seed_terms:
+      - Alzheimer disease
+      - Alzheimer's disease
+      - dementia
+      - mild cognitive impairment
+  openfda:
+    enabled: true
+    query_strategy: label_and_safety_context
+    focus_endpoints:
+      - drug/label
+      - drug/event
+    top_reaction_limit: 2
+    seed_interventions:
+      - canonical_entity_name: Donepezil
+        label_query: 'openfda.generic_name:"donepezil"'
+        event_search_term: donepezil
+        disease_scope: alzheimers_disease
+        off_patent_status: off_patent
+      - canonical_entity_name: Memantine
+        label_query: 'openfda.generic_name:"memantine"'
+        event_search_term: memantine
+        disease_scope: alzheimers_disease
+        off_patent_status: off_patent
+      - canonical_entity_name: Rivastigmine
+        label_query: 'openfda.generic_name:"rivastigmine"'
+        event_search_term: rivastigmine
+        disease_scope: alzheimers_disease
+        off_patent_status: off_patent
+      - canonical_entity_name: Galantamine
+        label_query: 'openfda.generic_name:"galantamine"'
+        event_search_term: galantamine
+        disease_scope: alzheimers_disease
+        off_patent_status: off_patent
+      - canonical_entity_name: Lecanemab
+        label_query: 'openfda.generic_name:"lecanemab"'
+        event_search_term: lecanemab
+        disease_scope: mild_cognitive_impairment
+        off_patent_status: on_patent_or_proprietary
+      - canonical_entity_name: Donanemab
+        label_query: 'openfda.generic_name:"donanemab"'
+        event_search_term: donanemab
+        disease_scope: mild_cognitive_impairment
+        off_patent_status: on_patent_or_proprietary
+      - canonical_entity_name: Brexpiprazole
+        label_query: 'openfda.generic_name:"brexpiprazole"'
+        event_search_term: brexpiprazole
+        disease_scope: alzheimers_disease
+        off_patent_status: on_patent_or_proprietary

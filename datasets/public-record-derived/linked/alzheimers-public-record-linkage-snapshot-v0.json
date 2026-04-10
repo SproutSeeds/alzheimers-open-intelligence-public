@@ -1,0 +1,924 @@
+{
+  "cross_source_intervention_cluster_count": 8,
+  "entity_group_count": 79,
+  "exact_pubmed_pmc_link_count": 8,
+  "exact_pubmed_pmc_links": [
+    {
+      "pmc_record_id": "pmc_open_access_subset:PMC13053539",
+      "pmcid": "PMC13053539",
+      "pmid": "41953673",
+      "pubmed_record_id": "pubmed:41953673",
+      "pubmed_row_present_in_seed": true,
+      "title": "Neuroinflammatory stress preferentially impacts synaptic MAPK signaling and mitochondria in excitatory neurons."
+    },
+    {
+      "pmc_record_id": "pmc_open_access_subset:PMC13053795",
+      "pmcid": "PMC13053795",
+      "pmid": "41953799",
+      "pubmed_record_id": "pubmed:41953799",
+      "pubmed_row_present_in_seed": true,
+      "title": "Investigating the Neuroprotective Effects of Peripheral Nerve Microcurrent Stimulation in a Mouse Model of Parkinson's Disease."
+    },
+    {
+      "pmc_record_id": "pmc_open_access_subset:PMC13053928",
+      "pmcid": "PMC13053928",
+      "pmid": "41953574",
+      "pubmed_record_id": "pubmed:41953574",
+      "pubmed_row_present_in_seed": true,
+      "title": "Decentralizing dementia research to the US-Mexico border: the Rio Grande Valley AD-RCMAR as a model for translational equity."
+    },
+    {
+      "pmc_record_id": "pmc_open_access_subset:PMC13053929",
+      "pmcid": "PMC13053929",
+      "pmid": "41953573",
+      "pubmed_record_id": "pubmed:41953573",
+      "pubmed_row_present_in_seed": true,
+      "title": "EEG recordings during visuo-attentive task reduce sex bias in Alzheimer's disease diagnosis."
+    },
+    {
+      "pmc_record_id": "pmc_open_access_subset:PMC13053946",
+      "pmcid": "PMC13053946",
+      "pmid": "41953934",
+      "pubmed_record_id": "pubmed:41953934",
+      "pubmed_row_present_in_seed": true,
+      "title": "The primary care brain health navigator: A perspective on implementation."
+    },
+    {
+      "pmc_record_id": "pmc_open_access_subset:PMC13055893",
+      "pmcid": "PMC13055893",
+      "pmid": "41953385",
+      "pubmed_record_id": "pubmed:41953385",
+      "pubmed_row_present_in_seed": true,
+      "title": "Real-World Multimodal Day-Care Intervention for Mild Cognitive Impairment with Lewy Bodies: A Prospective 3-Year Comparative Cognitive Trajectory Study."
+    },
+    {
+      "pmc_record_id": "pmc_open_access_subset:PMC13055913",
+      "pmcid": "PMC13055913",
+      "pmid": "41953516",
+      "pubmed_record_id": "pubmed:41953516",
+      "pubmed_row_present_in_seed": true,
+      "title": "Redefining the role of the thiol-based agent N-acetylcysteine in human health and disease and elucidating potential advantages of its amide derivative."
+    },
+    {
+      "pmc_record_id": "pmc_open_access_subset:PMC13063120",
+      "pmcid": "PMC13063120",
+      "pmid": "41954048",
+      "pubmed_record_id": "pubmed:41954048",
+      "pubmed_row_present_in_seed": true,
+      "title": "TOMM40 suppression promotes neuronal cholesterol imbalance and molecular and behavioral phenotypes of Alzheimer's disease."
+    }
+  ],
+  "generated_from_dataset_id": "alzheimers_public_record_seed_v0",
+  "grant_publication_bridge_count": 8,
+  "grant_publication_bridges": [
+    {
+      "core_project_num": "P30AG066444",
+      "grant_record_id": "nih_reporter:5P30AG066444-07:2026",
+      "linked_publication_count": 995,
+      "sampled_link_count": 3,
+      "sampled_publication_links": [
+        {
+          "latest_application_id": 11382424,
+          "pmid": "32223601",
+          "publication_title": "One-Year Evaluation of a Targeted Medication Therapy Management Intervention for Older Adults.",
+          "publication_year": 2020,
+          "pubmed_record_id": "pubmed:32223601",
+          "pubmed_row_present_in_seed": true
+        },
+        {
+          "latest_application_id": 11382424,
+          "pmid": "32250301",
+          "publication_title": "Increased Cerebrospinal Fluid Amyloid-\u03b2 During Sleep Deprivation in Healthy Middle-Aged Adults Is Not Due to Stress or Circadian Disruption.",
+          "publication_year": 2020,
+          "pubmed_record_id": "pubmed:32250301",
+          "pubmed_row_present_in_seed": true
+        },
+        {
+          "latest_application_id": 11382424,
+          "pmid": "32087291",
+          "publication_title": "Systematic validation of variants of unknown significance in APP, PSEN1 and PSEN2.",
+          "publication_year": 2020,
+          "pubmed_record_id": "pubmed:32087291",
+          "pubmed_row_present_in_seed": true
+        }
+      ]
+    },
+    {
+      "core_project_num": "R01DC014942",
+      "grant_record_id": "nih_reporter:5R01DC014942-09:2026",
+      "linked_publication_count": 110,
+      "sampled_link_count": 3,
+      "sampled_publication_links": [
+        {
+          "latest_application_id": 11305994,
+          "pmid": "29353121",
+          "publication_title": "Tau-PET imaging with [18F]AV-1451 in primary progressive apraxia of speech.",
+          "publication_year": 2018,
+          "pubmed_record_id": "pubmed:29353121",
+          "pubmed_row_present_in_seed": false
+        },
+        {
+          "latest_application_id": 11305994,
+          "pmid": "31481163",
+          "publication_title": "FTD spectrum: Neuroimaging across the FTD spectrum.",
+          "publication_year": 2019,
+          "pubmed_record_id": "pubmed:31481163",
+          "pubmed_row_present_in_seed": false
+        },
+        {
+          "latest_application_id": 11305994,
+          "pmid": "32388831",
+          "publication_title": "Ioflupane 123I (DAT scan) SPECT identifies dopamine receptor dysfunction early in the disease course in progressive apraxia of speech.",
+          "publication_year": 2020,
+          "pubmed_record_id": "pubmed:32388831",
+          "pubmed_row_present_in_seed": true
+        }
+      ]
+    },
+    {
+      "core_project_num": "R01AG082030",
+      "grant_record_id": "nih_reporter:4R01AG082030-02:2026",
+      "linked_publication_count": 18,
+      "sampled_link_count": 3,
+      "sampled_publication_links": [
+        {
+          "latest_application_id": 11456934,
+          "pmid": "34942867",
+          "publication_title": "The Role of the Human Brain Neuron-Glia-Synapse Composition in Forming Resting-State Functional Connectivity Networks.",
+          "publication_year": 2021,
+          "pubmed_record_id": "pubmed:34942867",
+          "pubmed_row_present_in_seed": true
+        },
+        {
+          "latest_application_id": 11456934,
+          "pmid": "36094730",
+          "publication_title": "Microscopic theory of spin-spin and spin-lattice relaxation of bound protons in cellular and myelin membranes-A lateral diffusion model (LDM).",
+          "publication_year": 2023,
+          "pubmed_record_id": "pubmed:36094730",
+          "pubmed_row_present_in_seed": true
+        },
+        {
+          "latest_application_id": 11456934,
+          "pmid": "36178006",
+          "publication_title": "Evaluating brain damage in multiple sclerosis with simultaneous multi-angular-relaxometry of tissue.",
+          "publication_year": 2022,
+          "pubmed_record_id": "pubmed:36178006",
+          "pubmed_row_present_in_seed": true
+        }
+      ]
+    },
+    {
+      "core_project_num": "K01AG080123",
+      "grant_record_id": "nih_reporter:5K01AG080123-04:2026",
+      "linked_publication_count": 16,
+      "sampled_link_count": 3,
+      "sampled_publication_links": [
+        {
+          "latest_application_id": 11262301,
+          "pmid": "37017737",
+          "publication_title": "Longitudinal head-to-head comparison of (11)C-PiB and (18)F-florbetapir PET in a Phase 2/3 clinical trial of anti-amyloid-\u03b2 monoclonal antibodies in dominantly inherited Alzheimer's disease.",
+          "publication_year": 2023,
+          "pubmed_record_id": "pubmed:37017737",
+          "pubmed_row_present_in_seed": true
+        },
+        {
+          "latest_application_id": 11262301,
+          "pmid": "39332414",
+          "publication_title": "CSF proteomics identifies early changes in autosomal dominant Alzheimer's disease.",
+          "publication_year": 2024,
+          "pubmed_record_id": "pubmed:39332414",
+          "pubmed_row_present_in_seed": false
+        },
+        {
+          "latest_application_id": 11262301,
+          "pmid": "39930140",
+          "publication_title": "Longitudinal analysis of a dominantly inherited Alzheimer disease mutation carrier protected from dementia.",
+          "publication_year": 2025,
+          "pubmed_record_id": "pubmed:39930140",
+          "pubmed_row_present_in_seed": true
+        }
+      ]
+    },
+    {
+      "core_project_num": "R01AG082135",
+      "grant_record_id": "nih_reporter:5R01AG082135-04:2026",
+      "linked_publication_count": 2,
+      "sampled_link_count": 2,
+      "sampled_publication_links": [
+        {
+          "latest_application_id": 11242036,
+          "pmid": "40475329",
+          "publication_title": "Gelsolin Facilitates Estrogen Receptor Beta Nuclear Translocation and Transcriptional Repression of Genes Associated with Alzheimer Disease.",
+          "publication_year": 2025,
+          "pubmed_record_id": "pubmed:40475329",
+          "pubmed_row_present_in_seed": true
+        },
+        {
+          "latest_application_id": 11242036,
+          "pmid": "38133208",
+          "publication_title": "Age and 17\u03b2-Estradiol (E(2)) Facilitate Nuclear Export and Argonaute Loading of microRNAs in the Female Brain.",
+          "publication_year": 2023,
+          "pubmed_record_id": "pubmed:38133208",
+          "pubmed_row_present_in_seed": true
+        }
+      ]
+    },
+    {
+      "core_project_num": "R01AG091310",
+      "grant_record_id": "nih_reporter:1R01AG091310-01A1:2026",
+      "linked_publication_count": 0,
+      "sampled_link_count": 0,
+      "sampled_publication_links": []
+    },
+    {
+      "core_project_num": "R01AG095248",
+      "grant_record_id": "nih_reporter:1R01AG095248-01:2026",
+      "linked_publication_count": 0,
+      "sampled_link_count": 0,
+      "sampled_publication_links": []
+    },
+    {
+      "core_project_num": "R01AG096172",
+      "grant_record_id": "nih_reporter:1R01AG096172-01:2026",
+      "linked_publication_count": 0,
+      "sampled_link_count": 0,
+      "sampled_publication_links": []
+    }
+  ],
+  "grants_with_linked_publications_count": 5,
+  "intervention_cluster_count": 11,
+  "intervention_clusters": [
+    {
+      "alias_terms": [
+        "Memantine",
+        "Memantine hydrochloride",
+        "memantine",
+        "namenda"
+      ],
+      "canonical_entity_name": "Memantine",
+      "evidence_roles": [
+        "adverse_event_signal",
+        "drug_label",
+        "trial_registration"
+      ],
+      "linked_record_count": 6,
+      "matched_records": [
+        {
+          "evidence_role": "trial_registration",
+          "match_type": "exact_canonical",
+          "record_id": "clinicaltrials_gov:NCT00933608",
+          "record_title": "Effects of Memantine on Magnetic Resonance (MR) Spectroscopy in Subjects at Risk for Alzheimer's Disease",
+          "source_system": "clinicaltrials_gov"
+        },
+        {
+          "evidence_role": "trial_registration",
+          "match_type": "exact_canonical",
+          "record_id": "clinicaltrials_gov:NCT01409694",
+          "record_title": "Alzheimer's Disease - Input of Vitamin D With mEmantine Assay",
+          "source_system": "clinicaltrials_gov"
+        },
+        {
+          "evidence_role": "trial_registration",
+          "match_type": "title_alias",
+          "record_id": "clinicaltrials_gov:NCT02246075",
+          "record_title": "Study of the Safety of Two Doses of Investigational Study Drug EVP-6124 in Subjects With Alzheimer's Disease Currently Receiving Memantine",
+          "source_system": "clinicaltrials_gov"
+        },
+        {
+          "evidence_role": "adverse_event_signal",
+          "match_type": "exact_canonical",
+          "record_id": "openfda:event:memantine:death",
+          "record_title": "Memantine adverse-event signal: DEATH",
+          "source_system": "openfda"
+        },
+        {
+          "evidence_role": "adverse_event_signal",
+          "match_type": "exact_canonical",
+          "record_id": "openfda:event:memantine:fall",
+          "record_title": "Memantine adverse-event signal: FALL",
+          "source_system": "openfda"
+        },
+        {
+          "evidence_role": "drug_label",
+          "match_type": "exact_canonical",
+          "record_id": "openfda:label:cf08de43-a887-40f3-a074-57ecc8d3093a",
+          "record_title": "Memantine hydrochloride label",
+          "source_system": "openfda"
+        }
+      ],
+      "source_systems": [
+        "clinicaltrials_gov",
+        "openfda"
+      ]
+    },
+    {
+      "alias_terms": [
+        "Rivastigmine",
+        "Rivastigmine Tartrate",
+        "exelon",
+        "rivastigmine"
+      ],
+      "canonical_entity_name": "Rivastigmine",
+      "evidence_roles": [
+        "adverse_event_signal",
+        "drug_label",
+        "trial_registration"
+      ],
+      "linked_record_count": 6,
+      "matched_records": [
+        {
+          "evidence_role": "trial_registration",
+          "match_type": "title_alias",
+          "record_id": "clinicaltrials_gov:NCT00622713",
+          "record_title": "A 24 Week, Multicenter, Open, Evaluation of the Clinical Effectiveness of the Once-daily 10 cm^2 Rivastigmine Patch Formulation in Patients With Probable Alzheimer's Disease (EXTRA)",
+          "source_system": "clinicaltrials_gov"
+        },
+        {
+          "evidence_role": "trial_registration",
+          "match_type": "exact_canonical",
+          "record_id": "clinicaltrials_gov:NCT02063269",
+          "record_title": "Brain Changes by Rivastigmine According to Butyrylcholinesterase Alleles",
+          "source_system": "clinicaltrials_gov"
+        },
+        {
+          "evidence_role": "trial_registration",
+          "match_type": "exact_canonical",
+          "record_id": "clinicaltrials_gov:NCT02444637",
+          "record_title": "Open Label Trial of Rivastigmine Patch in Subjects With Mild to Moderate Stage AD Having Coexisting svCVD",
+          "source_system": "clinicaltrials_gov"
+        },
+        {
+          "evidence_role": "adverse_event_signal",
+          "match_type": "exact_canonical",
+          "record_id": "openfda:event:rivastigmine:fall",
+          "record_title": "Rivastigmine adverse-event signal: FALL",
+          "source_system": "openfda"
+        },
+        {
+          "evidence_role": "adverse_event_signal",
+          "match_type": "exact_canonical",
+          "record_id": "openfda:event:rivastigmine:hallucination",
+          "record_title": "Rivastigmine adverse-event signal: HALLUCINATION",
+          "source_system": "openfda"
+        },
+        {
+          "evidence_role": "drug_label",
+          "match_type": "exact_canonical",
+          "record_id": "openfda:label:0044f1d7-613c-4611-8481-13032c8cb390",
+          "record_title": "Rivastigmine Tartrate label",
+          "source_system": "openfda"
+        }
+      ],
+      "source_systems": [
+        "clinicaltrials_gov",
+        "openfda"
+      ]
+    },
+    {
+      "alias_terms": [
+        "DONEPEZIL HYDROCHLORIDE",
+        "Donepezil",
+        "aricept",
+        "donepezil"
+      ],
+      "canonical_entity_name": "Donepezil",
+      "evidence_roles": [
+        "adverse_event_signal",
+        "drug_label",
+        "publication_record"
+      ],
+      "linked_record_count": 5,
+      "matched_records": [
+        {
+          "evidence_role": "adverse_event_signal",
+          "match_type": "exact_canonical",
+          "record_id": "openfda:event:donepezil:death",
+          "record_title": "Donepezil adverse-event signal: DEATH",
+          "source_system": "openfda"
+        },
+        {
+          "evidence_role": "adverse_event_signal",
+          "match_type": "exact_canonical",
+          "record_id": "openfda:event:donepezil:fall",
+          "record_title": "Donepezil adverse-event signal: FALL",
+          "source_system": "openfda"
+        },
+        {
+          "evidence_role": "drug_label",
+          "match_type": "exact_canonical",
+          "record_id": "openfda:label:f8867ea9-a608-4b0f-9052-fa5c44d7e7c2",
+          "record_title": "DONEPEZIL HYDROCHLORIDE label",
+          "source_system": "openfda"
+        },
+        {
+          "evidence_role": "publication_record",
+          "match_type": "title_alias",
+          "record_id": "pubmed:35921079",
+          "record_title": "A donepezil patch (Adlarity) for Alzheimer's disease.",
+          "source_system": "pubmed"
+        },
+        {
+          "evidence_role": "publication_record",
+          "match_type": "title_alias",
+          "record_id": "pubmed:36438603",
+          "record_title": "The effect of combination pretreatment of donepezil and environmental enrichment on memory deficits in amyloid-beta-induced Alzheimer-like rat model.",
+          "source_system": "pubmed"
+        }
+      ],
+      "source_systems": [
+        "openfda",
+        "pubmed"
+      ]
+    },
+    {
+      "alias_terms": [
+        "Music Therapy",
+        "music therapy",
+        "singing"
+      ],
+      "canonical_entity_name": "Music Therapy",
+      "evidence_roles": [
+        "publication_record",
+        "trial_registration"
+      ],
+      "linked_record_count": 5,
+      "matched_records": [
+        {
+          "evidence_role": "trial_registration",
+          "match_type": "title_alias",
+          "record_id": "clinicaltrials_gov:NCT02670993",
+          "record_title": "Support by Singing Sessions on Physical and Moral Pain : Assessment of Its Effectiveness in Alzheimer's Disease",
+          "source_system": "clinicaltrials_gov"
+        },
+        {
+          "evidence_role": "trial_registration",
+          "match_type": "exact_canonical",
+          "record_id": "clinicaltrials_gov:NCT03643003",
+          "record_title": "Music Therapy for Persons With Dementia",
+          "source_system": "clinicaltrials_gov"
+        },
+        {
+          "evidence_role": "trial_registration",
+          "match_type": "title_alias",
+          "record_id": "clinicaltrials_gov:NCT04666077",
+          "record_title": "Music Therapy Experiences in Patients With Mild Cognitive Impairment (MCI) and Alzheimer's Disease (AD)",
+          "source_system": "clinicaltrials_gov"
+        },
+        {
+          "evidence_role": "publication_record",
+          "match_type": "title_alias",
+          "record_id": "pubmed:41870257",
+          "record_title": "Meta-analysis of the efficacy of interventions for persons living with Alzheimer's disease: The role of music therapy.",
+          "source_system": "pubmed"
+        },
+        {
+          "evidence_role": "publication_record",
+          "match_type": "title_alias",
+          "record_id": "pubmed:41944428",
+          "record_title": "Music therapy interest in patients with Alzheimer's disease and Alzheimer's disease related dementia: A survey study.",
+          "source_system": "pubmed"
+        }
+      ],
+      "source_systems": [
+        "clinicaltrials_gov",
+        "pubmed"
+      ]
+    },
+    {
+      "alias_terms": [
+        "EVP-6124",
+        "encenicline",
+        "evp-6124"
+      ],
+      "canonical_entity_name": "EVP-6124",
+      "evidence_roles": [
+        "publication_record",
+        "trial_registration"
+      ],
+      "linked_record_count": 4,
+      "matched_records": [
+        {
+          "evidence_role": "trial_registration",
+          "match_type": "title_alias",
+          "record_id": "clinicaltrials_gov:NCT00766363",
+          "record_title": "Safety, Tolerability, and Pharmacokinetic Study of EVP-6124 in Patients With Alzheimer's Disease",
+          "source_system": "clinicaltrials_gov"
+        },
+        {
+          "evidence_role": "trial_registration",
+          "match_type": "title_alias",
+          "record_id": "clinicaltrials_gov:NCT01969123",
+          "record_title": "Study of the Safety and Effectiveness of Two Doses of Investigational Study Drug EVP-6124 in Subjects With Alzheimer's Disease",
+          "source_system": "clinicaltrials_gov"
+        },
+        {
+          "evidence_role": "trial_registration",
+          "match_type": "exact_canonical",
+          "record_id": "clinicaltrials_gov:NCT02246075",
+          "record_title": "Study of the Safety of Two Doses of Investigational Study Drug EVP-6124 in Subjects With Alzheimer's Disease Currently Receiving Memantine",
+          "source_system": "clinicaltrials_gov"
+        },
+        {
+          "evidence_role": "publication_record",
+          "match_type": "title_alias",
+          "record_id": "pubmed:25495510",
+          "record_title": "Safety and clinical effects of EVP-6124 in subjects with Alzheimer's disease currently or previously receiving an acetylcholinesterase inhibitor medication.",
+          "source_system": "pubmed"
+        }
+      ],
+      "source_systems": [
+        "clinicaltrials_gov",
+        "pubmed"
+      ]
+    },
+    {
+      "alias_terms": [
+        "Galantamine",
+        "Galantamine Hydrobromide",
+        "galantamine",
+        "razadyne"
+      ],
+      "canonical_entity_name": "Galantamine",
+      "evidence_roles": [
+        "adverse_event_signal",
+        "drug_label",
+        "publication_record"
+      ],
+      "linked_record_count": 4,
+      "matched_records": [
+        {
+          "evidence_role": "adverse_event_signal",
+          "match_type": "exact_canonical",
+          "record_id": "openfda:event:galantamine:cognitive_disorder",
+          "record_title": "Galantamine adverse-event signal: COGNITIVE DISORDER",
+          "source_system": "openfda"
+        },
+        {
+          "evidence_role": "adverse_event_signal",
+          "match_type": "exact_canonical",
+          "record_id": "openfda:event:galantamine:fall",
+          "record_title": "Galantamine adverse-event signal: FALL",
+          "source_system": "openfda"
+        },
+        {
+          "evidence_role": "drug_label",
+          "match_type": "exact_canonical",
+          "record_id": "openfda:label:9c064bce-c710-4580-80d7-949d1b974838",
+          "record_title": "Galantamine Hydrobromide label",
+          "source_system": "openfda"
+        },
+        {
+          "evidence_role": "publication_record",
+          "match_type": "title_alias",
+          "record_id": "pubmed:41951832",
+          "record_title": "Single nucleotide polymorphisms affecting galantamine binding to acetylcholinesterase in Alzheimer's disease: a structural bioinformatics study.",
+          "source_system": "pubmed"
+        }
+      ],
+      "source_systems": [
+        "openfda",
+        "pubmed"
+      ]
+    },
+    {
+      "alias_terms": [
+        "Transcranial Direct Current Stimulation",
+        "tdcs",
+        "transcranial direct current stimulation"
+      ],
+      "canonical_entity_name": "Transcranial Direct Current Stimulation",
+      "evidence_roles": [
+        "publication_record",
+        "trial_registration"
+      ],
+      "linked_record_count": 4,
+      "matched_records": [
+        {
+          "evidence_role": "trial_registration",
+          "match_type": "exact_canonical",
+          "record_id": "clinicaltrials_gov:NCT01481558",
+          "record_title": "Effects of Transcranial Direct Current Stimulation on the Apathy of Alzheimer's Disease",
+          "source_system": "clinicaltrials_gov"
+        },
+        {
+          "evidence_role": "trial_registration",
+          "match_type": "title_alias",
+          "record_id": "clinicaltrials_gov:NCT02227953",
+          "record_title": "A Pilot Study of tDCS for Mild to Moderate Alzhemier's Disease",
+          "source_system": "clinicaltrials_gov"
+        },
+        {
+          "evidence_role": "publication_record",
+          "match_type": "title_alias",
+          "record_id": "pubmed:41809190",
+          "record_title": "Six-month randomized, double-blind trial of transcranial direct current stimulation in mild Alzheimer's dementia: domain-specific cognitive and neuropsychiatric signals.",
+          "source_system": "pubmed"
+        },
+        {
+          "evidence_role": "publication_record",
+          "match_type": "title_alias",
+          "record_id": "pubmed:41953054",
+          "record_title": "tDCS improves early Alzheimer's disease by synaptic vesicle fusion and release.",
+          "source_system": "pubmed"
+        }
+      ],
+      "source_systems": [
+        "clinicaltrials_gov",
+        "pubmed"
+      ]
+    },
+    {
+      "alias_terms": [
+        "Transcranial Electromagnetic Treatment",
+        "memorem",
+        "temt",
+        "transcranial electromagnetic treatment"
+      ],
+      "canonical_entity_name": "Transcranial Electromagnetic Treatment",
+      "evidence_roles": [
+        "publication_record",
+        "trial_registration"
+      ],
+      "linked_record_count": 4,
+      "matched_records": [
+        {
+          "evidence_role": "trial_registration",
+          "match_type": "title_alias",
+          "record_id": "clinicaltrials_gov:NCT02958930",
+          "record_title": "Safety and Efficacy of Transcranial Electromagnetic Treatment Against Alzheimer's Disease",
+          "source_system": "clinicaltrials_gov"
+        },
+        {
+          "evidence_role": "trial_registration",
+          "match_type": "exact_canonical",
+          "record_id": "clinicaltrials_gov:NCT04271163",
+          "record_title": "Transcranial Electromagnetic Treatment (TEMT) Against Alzheimer's Disease",
+          "source_system": "clinicaltrials_gov"
+        },
+        {
+          "evidence_role": "publication_record",
+          "match_type": "title_alias",
+          "record_id": "pubmed:31403948",
+          "record_title": "A Clinical Trial of Transcranial Electromagnetic Treatment in Alzheimer's Disease: Cognitive Enhancement and Associated Changes in Cerebrospinal Fluid, Blood, and Brain Imaging.",
+          "source_system": "pubmed"
+        },
+        {
+          "evidence_role": "publication_record",
+          "match_type": "title_alias",
+          "record_id": "pubmed:36005647",
+          "record_title": "Transcranial Electromagnetic Treatment Stops Alzheimer's Disease Cognitive Decline over a 2\u00bd-Year Period: A Pilot Study.",
+          "source_system": "pubmed"
+        }
+      ],
+      "source_systems": [
+        "clinicaltrials_gov",
+        "pubmed"
+      ]
+    },
+    {
+      "alias_terms": [
+        "Brexpiprazole",
+        "Rexulti",
+        "brexpiprazole",
+        "rexulti"
+      ],
+      "canonical_entity_name": "Brexpiprazole",
+      "evidence_roles": [
+        "adverse_event_signal",
+        "drug_label"
+      ],
+      "linked_record_count": 3,
+      "matched_records": [
+        {
+          "evidence_role": "adverse_event_signal",
+          "match_type": "exact_canonical",
+          "record_id": "openfda:event:brexpiprazole:death",
+          "record_title": "Brexpiprazole adverse-event signal: DEATH",
+          "source_system": "openfda"
+        },
+        {
+          "evidence_role": "adverse_event_signal",
+          "match_type": "exact_canonical",
+          "record_id": "openfda:event:brexpiprazole:drug_ineffective",
+          "record_title": "Brexpiprazole adverse-event signal: DRUG INEFFECTIVE",
+          "source_system": "openfda"
+        },
+        {
+          "evidence_role": "drug_label",
+          "match_type": "exact_canonical",
+          "record_id": "openfda:label:6507f292-90e7-408c-baf5-4475fc31a06d",
+          "record_title": "Rexulti label",
+          "source_system": "openfda"
+        }
+      ],
+      "source_systems": [
+        "openfda"
+      ]
+    },
+    {
+      "alias_terms": [
+        "Donanemab",
+        "Kisunla",
+        "donanemab",
+        "kisunla"
+      ],
+      "canonical_entity_name": "Donanemab",
+      "evidence_roles": [
+        "adverse_event_signal",
+        "drug_label"
+      ],
+      "linked_record_count": 3,
+      "matched_records": [
+        {
+          "evidence_role": "adverse_event_signal",
+          "match_type": "exact_canonical",
+          "record_id": "openfda:event:donanemab:chills",
+          "record_title": "Donanemab adverse-event signal: CHILLS",
+          "source_system": "openfda"
+        },
+        {
+          "evidence_role": "adverse_event_signal",
+          "match_type": "exact_canonical",
+          "record_id": "openfda:event:donanemab:infusion_related_reaction",
+          "record_title": "Donanemab adverse-event signal: INFUSION RELATED REACTION",
+          "source_system": "openfda"
+        },
+        {
+          "evidence_role": "drug_label",
+          "match_type": "exact_canonical",
+          "record_id": "openfda:label:85d3d68b-57f9-45e6-a1a7-fa19bc843f33",
+          "record_title": "Kisunla label",
+          "source_system": "openfda"
+        }
+      ],
+      "source_systems": [
+        "openfda"
+      ]
+    },
+    {
+      "alias_terms": [
+        "LEQEMBI",
+        "Lecanemab",
+        "lecanemab",
+        "leqembi"
+      ],
+      "canonical_entity_name": "Lecanemab",
+      "evidence_roles": [
+        "adverse_event_signal",
+        "drug_label"
+      ],
+      "linked_record_count": 3,
+      "matched_records": [
+        {
+          "evidence_role": "adverse_event_signal",
+          "match_type": "exact_canonical",
+          "record_id": "openfda:event:lecanemab:amyloid_related_imaging_abnormality_microhaemorrhages_and_haemosiderin_deposits",
+          "record_title": "Lecanemab adverse-event signal: AMYLOID RELATED IMAGING ABNORMALITY-MICROHAEMORRHAGES AND HAEMOSIDERIN DEPOSITS",
+          "source_system": "openfda"
+        },
+        {
+          "evidence_role": "adverse_event_signal",
+          "match_type": "exact_canonical",
+          "record_id": "openfda:event:lecanemab:amyloid_related_imaging_abnormality_oedema_effusion",
+          "record_title": "Lecanemab adverse-event signal: AMYLOID RELATED IMAGING ABNORMALITY-OEDEMA/EFFUSION",
+          "source_system": "openfda"
+        },
+        {
+          "evidence_role": "drug_label",
+          "match_type": "exact_canonical",
+          "record_id": "openfda:label:81ef20f0-d4f7-4f69-b081-e297224b653f",
+          "record_title": "LEQEMBI label",
+          "source_system": "openfda"
+        }
+      ],
+      "source_systems": [
+        "openfda"
+      ]
+    }
+  ],
+  "multi_source_entity_group_count": 10,
+  "multi_source_entity_groups": [
+    {
+      "display_name": "memantine",
+      "evidence_roles": [
+        "adverse_event_signal",
+        "drug_label",
+        "trial_registration"
+      ],
+      "record_count": 5,
+      "source_systems": [
+        "clinicaltrials_gov",
+        "openfda"
+      ]
+    },
+    {
+      "display_name": "Rivastigmine",
+      "evidence_roles": [
+        "adverse_event_signal",
+        "drug_label",
+        "trial_registration"
+      ],
+      "record_count": 5,
+      "source_systems": [
+        "clinicaltrials_gov",
+        "openfda"
+      ]
+    },
+    {
+      "display_name": "Decentralizing dementia research to the US-Mexico border: the Rio Grande Valley AD-RCMAR as a model for translational equity.",
+      "evidence_roles": [
+        "publication_record"
+      ],
+      "record_count": 2,
+      "source_systems": [
+        "pmc_open_access_subset",
+        "pubmed"
+      ]
+    },
+    {
+      "display_name": "EEG recordings during visuo-attentive task reduce sex bias in Alzheimer's disease diagnosis.",
+      "evidence_roles": [
+        "publication_record"
+      ],
+      "record_count": 2,
+      "source_systems": [
+        "pmc_open_access_subset",
+        "pubmed"
+      ]
+    },
+    {
+      "display_name": "Investigating the Neuroprotective Effects of Peripheral Nerve Microcurrent Stimulation in a Mouse Model of Parkinson's Disease.",
+      "evidence_roles": [
+        "publication_record"
+      ],
+      "record_count": 2,
+      "source_systems": [
+        "pmc_open_access_subset",
+        "pubmed"
+      ]
+    },
+    {
+      "display_name": "Neuroinflammatory stress preferentially impacts synaptic MAPK signaling and mitochondria in excitatory neurons.",
+      "evidence_roles": [
+        "publication_record"
+      ],
+      "record_count": 2,
+      "source_systems": [
+        "pmc_open_access_subset",
+        "pubmed"
+      ]
+    },
+    {
+      "display_name": "Real-World Multimodal Day-Care Intervention for Mild Cognitive Impairment with Lewy Bodies: A Prospective 3-Year Comparative Cognitive Trajectory Study.",
+      "evidence_roles": [
+        "publication_record"
+      ],
+      "record_count": 2,
+      "source_systems": [
+        "pmc_open_access_subset",
+        "pubmed"
+      ]
+    },
+    {
+      "display_name": "Redefining the role of the thiol-based agent N-acetylcysteine in human health and disease and elucidating potential advantages of its amide derivative.",
+      "evidence_roles": [
+        "publication_record"
+      ],
+      "record_count": 2,
+      "source_systems": [
+        "pmc_open_access_subset",
+        "pubmed"
+      ]
+    },
+    {
+      "display_name": "The primary care brain health navigator: A perspective on implementation.",
+      "evidence_roles": [
+        "publication_record"
+      ],
+      "record_count": 2,
+      "source_systems": [
+        "pmc_open_access_subset",
+        "pubmed"
+      ]
+    },
+    {
+      "display_name": "TOMM40 suppression promotes neuronal cholesterol imbalance and molecular and behavioral phenotypes of Alzheimer's disease.",
+      "evidence_roles": [
+        "publication_record"
+      ],
+      "record_count": 2,
+      "source_systems": [
+        "pmc_open_access_subset",
+        "pubmed"
+      ]
+    }
+  ],
+  "repo_paths": {
+    "linkage_snapshot": "datasets/public-record-derived/linked/alzheimers-public-record-linkage-snapshot-v0.json",
+    "query_manifest": "datasets/public-record-derived/alzheimers-public-record-query-manifest-v0.yaml",
+    "seed_json": "datasets/public-record-derived/seed/alzheimers-public-record-seed-v0.json"
+  },
+  "row_count": 105,
+  "sampled_grant_publication_link_count": 14,
+  "snapshot_id": "alzheimers_public_record_linkage_snapshot_v0"
+}

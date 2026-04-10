@@ -1,0 +1,51 @@
+review_id: improvisational-movement_watchlist_review_v0
+generated_from_dataset_id: alzheimers_public_record_seed_v0
+candidate_review_snapshot_id: alzheimers_public_record_candidate_review_snapshot_v0
+canonical_entity_name: Improvisational Movement
+review_status: completed
+watchlist_category: adjacent_scope_only
+decision_confidence: medium
+decision_summary: Keep this intervention on the watchlist. The current surface is
+  relevant to memory-loss or dementia populations, but it does not yet earn a direct
+  Alzheimer's-specific claim.
+intervention_family: behavioral_or_lifestyle
+disease_scope: alzheimers_disease
+off_patent_status: not_applicable
+source_systems:
+- clinicaltrials_gov
+evidence_roles:
+- trial_registration
+support_status: single_record_single_source
+exact_scope_link_count: 0
+exact_scope_source_systems: []
+exact_scope_evidence_roles: []
+exemplar_record_id: clinicaltrials_gov:NCT03333837
+exemplar_record_title: Improvisational Movement for People With Memory Loss and Their
+  Caregivers
+current_candidate_record_count: 1
+current_candidate_record_ids:
+- clinicaltrials_gov:NCT03333837
+review_flags:
+- single_record_only
+- single_source_only
+- single_evidence_role_only
+- adjacent_scope_match_present
+caution_flags:
+- retain_watchlist_status
+- do_not_promote_without_new_support
+- do_not_upgrade_adjacent_scope_to_exact_claim
+- single_source_surface
+rationale_points:
+- The current surface does not yet contain any exact-scope Alzheimer's support records.
+- The strongest linked record is adjacent to Alzheimer's scope rather than an exact
+  Alzheimer's intervention claim.
+next_actions:
+- Keep the intervention in the candidate-only layer.
+- Look for a direct Alzheimer's-specific trial or publication before reopening promotion
+  review.
+- Do not merge caregiver or broader dementia surfaces into an Alzheimer's-specific
+  claim without exact support.
+repo_paths:
+  review_record: interventions/hypothesis-ledger/watchlist-reviews/records/improvisational-movement-watchlist-review-v0.yaml
+  review_report: interventions/hypothesis-ledger/watchlist-reviews/reports/improvisational-movement-watchlist-review-v0.md
+  candidate_review_snapshot: datasets/public-record-derived/linked/alzheimers-public-record-candidate-review-snapshot-v0.json

@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this release, please cite Alzheimer's Open Intelligence: Public Evidence Seed v0."
+title: "Alzheimer's Open Intelligence: Public Evidence Seed v0"
+type: software
+version: "v0"
+date-released: 2026-04-10
+abstract: >-
+  A public-record-derived Alzheimer's evidence substrate built from official
+  public sources including ClinicalTrials.gov, PubMed, PMC Open Access, NIH
+  RePORTER, and openFDA. This release includes a linked seed dataset, linkage
+  artifacts, exact-anchor intervention review records, and watchlist review
+  records for unresolved candidates.
+authors:
+  - family-names: Mitchell
+    given-names: Cody
+    affiliation: "Fractal Research Group LLC"
+repository-code: "https://github.com/SproutSeeds/alzheimers-open-intelligence-public"
+url: "https://frg.earth"
+keywords:
+  - Alzheimer's disease
+  - biomedical informatics
+  - public datasets
+  - literature mining
+  - clinical trials
+  - biomarkers
+  - intervention triage

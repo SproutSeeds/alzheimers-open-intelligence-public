@@ -1,0 +1,123 @@
+$schema: "http://json-schema.org/draft-07/schema#"
+title: Alzheimer's Public Record Row v0
+type: object
+additionalProperties: false
+required:
+  - record_id
+  - entity_type
+  - canonical_entity_name
+  - disease_scope
+  - source_system
+  - source_record_id
+  - source_url
+  - record_title
+  - evidence_role
+  - intervention_or_assay_type
+  - biomarker_family
+  - model_system_or_population
+  - result_direction
+  - off_patent_status
+  - sponsor_type
+  - phase_or_study_design
+  - year
+  - extraction_method
+  - provenance_note
+properties:
+  record_id:
+    type: string
+    minLength: 1
+  entity_type:
+    type: string
+    enum:
+      - intervention
+      - biomarker
+      - trial
+      - publication
+      - grant
+      - regulatory_signal
+  canonical_entity_name:
+    type: string
+    minLength: 1
+  disease_scope:
+    type: string
+    enum:
+      - alzheimers_disease
+      - mild_cognitive_impairment
+      - dementia_general
+      - related_neurodegeneration
+  source_system:
+    type: string
+    enum:
+      - clinicaltrials_gov
+      - pubmed
+      - pmc_open_access_subset
+      - nih_reporter
+      - openfda
+  source_record_id:
+    type: string
+    minLength: 1
+  source_url:
+    type: string
+    format: uri
+  record_title:
+    type: string
+    minLength: 1
+  evidence_role:
+    type: string
+    enum:
+      - trial_registration
+      - trial_result
+      - publication_record
+      - grant_record
+      - drug_label
+      - adverse_event_signal
+  intervention_or_assay_type:
+    type: string
+    minLength: 1
+  biomarker_family:
+    type: string
+    minLength: 1
+  model_system_or_population:
+    type: string
+    minLength: 1
+  result_direction:
+    type: string
+    enum:
+      - positive
+      - negative
+      - mixed
+      - neutral_or_descriptive
+      - not_yet_known
+  off_patent_status:
+    type: string
+    enum:
+      - off_patent
+      - on_patent_or_proprietary
+      - unknown
+      - not_applicable
+  sponsor_type:
+    type: string
+    enum:
+      - academic
+      - industry
+      - government
+      - nonprofit
+      - mixed
+      - unknown
+  phase_or_study_design:
+    type: string
+    minLength: 1
+  year:
+    type: integer
+    minimum: 1900
+    maximum: 2100
+  extraction_method:
+    type: string
+    enum:
+      - api_structured
+      - bulk_structured
+      - rule_based_extraction
+      - manual_curation
+  provenance_note:
+    type: string
+    minLength: 1

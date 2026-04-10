@@ -1,0 +1,102 @@
+{
+  "candidate_linkage_snapshot_id": "alzheimers_public_record_candidate_linkage_snapshot_v0",
+  "exact_linkage_snapshot_id": "alzheimers_public_record_linkage_snapshot_v0",
+  "generated_from_dataset_id": "alzheimers_public_record_seed_v0",
+  "high_priority_review_count": 2,
+  "promotion_watchlist_count": 2,
+  "ready_for_exact_anchor_review_count": 0,
+  "repo_paths": {
+    "candidate_linkage_snapshot": "datasets/public-record-derived/linked/alzheimers-public-record-candidate-linkage-snapshot-v0.json",
+    "candidate_review_report": "datasets/public-record-derived/linked/alzheimers-public-record-candidate-review-report-v0.md",
+    "candidate_review_snapshot": "datasets/public-record-derived/linked/alzheimers-public-record-candidate-review-snapshot-v0.json",
+    "exact_linkage_snapshot": "datasets/public-record-derived/linked/alzheimers-public-record-linkage-snapshot-v0.json",
+    "query_manifest": "datasets/public-record-derived/alzheimers-public-record-query-manifest-v0.yaml",
+    "seed_json": "datasets/public-record-derived/seed/alzheimers-public-record-seed-v0.json"
+  },
+  "review_item_count": 2,
+  "review_items": [
+    {
+      "candidate_link_count": 1,
+      "canonical_entity_name": "Cortical Brain Stimulation",
+      "disease_scope": "alzheimers_disease",
+      "evidence_roles": [
+        "trial_registration"
+      ],
+      "exact_anchor_present": false,
+      "exact_scope_evidence_roles": [
+        "trial_registration"
+      ],
+      "exact_scope_link_count": 1,
+      "exact_scope_source_systems": [
+        "clinicaltrials_gov"
+      ],
+      "exemplar_record_id": "clinicaltrials_gov:NCT05971030",
+      "exemplar_record_title": "Clinical Exploratory Research of Medial Prefrontal Cortex Combined With Dorsolateral Prefrontal Cortex Electrical Stimulation in the Treatment of Alzheimer's Disease",
+      "intervention_family": "device_or_stimulation",
+      "off_patent_status": "not_applicable",
+      "promotion_readiness": "watch_for_second_source",
+      "recommended_next_step": "Find a second independent public source before considering promotion.",
+      "review_flags": [
+        "single_record_only",
+        "single_source_only",
+        "single_evidence_role_only"
+      ],
+      "review_priority": "high",
+      "score_component_union": [
+        "canonical_alias_partial",
+        "disease_scope_exact",
+        "intervention_family_alignment",
+        "preferred_source_system",
+        "title_alias"
+      ],
+      "source_mode": "candidate_only",
+      "source_systems": [
+        "clinicaltrials_gov"
+      ],
+      "support_status": "single_record_single_source",
+      "top_candidate_score": 1.0,
+      "top_candidate_tier": "high"
+    },
+    {
+      "candidate_link_count": 1,
+      "canonical_entity_name": "Improvisational Movement",
+      "disease_scope": "alzheimers_disease",
+      "evidence_roles": [
+        "trial_registration"
+      ],
+      "exact_anchor_present": false,
+      "exact_scope_evidence_roles": [],
+      "exact_scope_link_count": 0,
+      "exact_scope_source_systems": [],
+      "exemplar_record_id": "clinicaltrials_gov:NCT03333837",
+      "exemplar_record_title": "Improvisational Movement for People With Memory Loss and Their Caregivers",
+      "intervention_family": "behavioral_or_lifestyle",
+      "off_patent_status": "not_applicable",
+      "promotion_readiness": "watch_for_second_source",
+      "recommended_next_step": "Check whether the intervention should remain adjacent-scope only or can earn a direct Alzheimer's claim.",
+      "review_flags": [
+        "single_record_only",
+        "single_source_only",
+        "single_evidence_role_only",
+        "adjacent_scope_match_present"
+      ],
+      "review_priority": "high",
+      "score_component_union": [
+        "canonical_alias_exact",
+        "disease_scope_adjacent",
+        "intervention_family_alignment",
+        "preferred_source_system",
+        "title_alias"
+      ],
+      "source_mode": "candidate_only",
+      "source_systems": [
+        "clinicaltrials_gov"
+      ],
+      "support_status": "single_record_single_source",
+      "top_candidate_score": 1.0,
+      "top_candidate_tier": "high"
+    }
+  ],
+  "snapshot_id": "alzheimers_public_record_candidate_review_snapshot_v0",
+  "tracked_intervention_count": 2
+}

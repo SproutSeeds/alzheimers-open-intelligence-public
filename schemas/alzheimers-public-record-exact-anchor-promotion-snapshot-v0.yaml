@@ -1,0 +1,115 @@
+$schema: "http://json-schema.org/draft-07/schema#"
+title: Alzheimer's Public Record Exact Anchor Promotion Snapshot v0
+type: object
+additionalProperties: false
+required:
+  - snapshot_id
+  - generated_from_dataset_id
+  - candidate_review_snapshot_id
+  - promotion_candidate_count
+  - promotion_candidates
+  - repo_paths
+properties:
+  snapshot_id:
+    type: string
+    minLength: 1
+  generated_from_dataset_id:
+    type: string
+    minLength: 1
+  candidate_review_snapshot_id:
+    type: string
+    minLength: 1
+  promotion_candidate_count:
+    type: integer
+    minimum: 0
+  promotion_candidates:
+    type: array
+    items:
+      type: object
+      additionalProperties: false
+      required:
+        - canonical_entity_name
+        - intervention_family
+        - disease_scope
+        - off_patent_status
+        - source_systems
+        - evidence_roles
+        - top_candidate_score
+        - top_candidate_tier
+        - support_status
+        - review_priority
+        - exemplar_record_id
+        - exemplar_record_title
+        - proposed_action
+        - caution_note
+      properties:
+        canonical_entity_name:
+          type: string
+          minLength: 1
+        intervention_family:
+          type: string
+          minLength: 1
+        disease_scope:
+          type: string
+          minLength: 1
+        off_patent_status:
+          type: string
+          minLength: 1
+        source_systems:
+          type: array
+          items:
+            type: string
+            minLength: 1
+        evidence_roles:
+          type: array
+          items:
+            type: string
+            minLength: 1
+        top_candidate_score:
+          type: number
+          minimum: 0
+          maximum: 1
+        top_candidate_tier:
+          type: string
+          enum:
+            - high
+            - medium
+            - low
+        support_status:
+          type: string
+          minLength: 1
+        review_priority:
+          type: string
+          enum:
+            - high
+            - medium
+            - low
+        exemplar_record_id:
+          type: string
+          minLength: 1
+        exemplar_record_title:
+          type: string
+          minLength: 1
+        proposed_action:
+          type: string
+          minLength: 1
+        caution_note:
+          type: string
+          minLength: 1
+  repo_paths:
+    type: object
+    additionalProperties: false
+    required:
+      - candidate_review_snapshot
+      - exact_anchor_promotion_snapshot
+      - exact_anchor_promotion_report
+    properties:
+      candidate_review_snapshot:
+        type: string
+        minLength: 1
+      exact_anchor_promotion_snapshot:
+        type: string
+        minLength: 1
+      exact_anchor_promotion_report:
+        type: string
+        minLength: 1

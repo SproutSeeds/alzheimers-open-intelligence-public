@@ -1,0 +1,192 @@
+$schema: "http://json-schema.org/draft-07/schema#"
+title: Alzheimer's Public Record Candidate Review Snapshot v0
+type: object
+additionalProperties: false
+required:
+  - snapshot_id
+  - generated_from_dataset_id
+  - exact_linkage_snapshot_id
+  - candidate_linkage_snapshot_id
+  - tracked_intervention_count
+  - review_item_count
+  - high_priority_review_count
+  - promotion_watchlist_count
+  - ready_for_exact_anchor_review_count
+  - review_items
+  - repo_paths
+properties:
+  snapshot_id:
+    type: string
+    minLength: 1
+  generated_from_dataset_id:
+    type: string
+    minLength: 1
+  exact_linkage_snapshot_id:
+    type: string
+    minLength: 1
+  candidate_linkage_snapshot_id:
+    type: string
+    minLength: 1
+  tracked_intervention_count:
+    type: integer
+    minimum: 0
+  review_item_count:
+    type: integer
+    minimum: 0
+  high_priority_review_count:
+    type: integer
+    minimum: 0
+  promotion_watchlist_count:
+    type: integer
+    minimum: 0
+  ready_for_exact_anchor_review_count:
+    type: integer
+    minimum: 0
+  review_items:
+    type: array
+    items:
+      type: object
+      additionalProperties: false
+      required:
+        - canonical_entity_name
+        - intervention_family
+        - disease_scope
+        - off_patent_status
+        - source_mode
+        - exact_anchor_present
+        - candidate_link_count
+        - source_systems
+        - evidence_roles
+        - support_status
+        - exact_scope_link_count
+        - exact_scope_source_systems
+        - exact_scope_evidence_roles
+        - top_candidate_score
+        - top_candidate_tier
+        - exemplar_record_id
+        - exemplar_record_title
+        - score_component_union
+        - review_flags
+        - review_priority
+        - promotion_readiness
+        - recommended_next_step
+      properties:
+        canonical_entity_name:
+          type: string
+          minLength: 1
+        intervention_family:
+          type: string
+          minLength: 1
+        disease_scope:
+          type: string
+          minLength: 1
+        off_patent_status:
+          type: string
+          minLength: 1
+        source_mode:
+          type: string
+          minLength: 1
+        exact_anchor_present:
+          type: boolean
+        candidate_link_count:
+          type: integer
+          minimum: 0
+        source_systems:
+          type: array
+          items:
+            type: string
+            minLength: 1
+        evidence_roles:
+          type: array
+          items:
+            type: string
+            minLength: 1
+        support_status:
+          type: string
+          enum:
+            - single_record_single_source
+            - multi_record_single_source
+            - multi_source
+        exact_scope_link_count:
+          type: integer
+          minimum: 0
+        exact_scope_source_systems:
+          type: array
+          items:
+            type: string
+            minLength: 1
+        exact_scope_evidence_roles:
+          type: array
+          items:
+            type: string
+            minLength: 1
+        top_candidate_score:
+          type: number
+          minimum: 0
+          maximum: 1
+        top_candidate_tier:
+          type: string
+          enum:
+            - high
+            - medium
+            - low
+        exemplar_record_id:
+          type: string
+          minLength: 1
+        exemplar_record_title:
+          type: string
+          minLength: 1
+        score_component_union:
+          type: array
+          items:
+            type: string
+            minLength: 1
+        review_flags:
+          type: array
+          items:
+            type: string
+            minLength: 1
+        review_priority:
+          type: string
+          enum:
+            - high
+            - medium
+            - low
+        promotion_readiness:
+          type: string
+          enum:
+            - ready_for_exact_anchor_review
+            - watch_for_second_source
+            - hold_as_candidate
+        recommended_next_step:
+          type: string
+          minLength: 1
+  repo_paths:
+    type: object
+    additionalProperties: false
+    required:
+      - seed_json
+      - exact_linkage_snapshot
+      - candidate_linkage_snapshot
+      - query_manifest
+      - candidate_review_snapshot
+      - candidate_review_report
+    properties:
+      seed_json:
+        type: string
+        minLength: 1
+      exact_linkage_snapshot:
+        type: string
+        minLength: 1
+      candidate_linkage_snapshot:
+        type: string
+        minLength: 1
+      query_manifest:
+        type: string
+        minLength: 1
+      candidate_review_snapshot:
+        type: string
+        minLength: 1
+      candidate_review_report:
+        type: string
+        minLength: 1

@@ -1,0 +1,52 @@
+review_id: cortical-brain-stimulation_watchlist_review_v0
+generated_from_dataset_id: alzheimers_public_record_seed_v0
+candidate_review_snapshot_id: alzheimers_public_record_candidate_review_snapshot_v0
+canonical_entity_name: Cortical Brain Stimulation
+review_status: completed
+watchlist_category: needs_second_source
+decision_confidence: medium
+decision_summary: Keep this intervention on the watchlist. The current surface is
+  exact-scope enough to stay live, but it still lacks a second independent public
+  source.
+intervention_family: device_or_stimulation
+disease_scope: alzheimers_disease
+off_patent_status: not_applicable
+source_systems:
+- clinicaltrials_gov
+evidence_roles:
+- trial_registration
+support_status: single_record_single_source
+exact_scope_link_count: 1
+exact_scope_source_systems:
+- clinicaltrials_gov
+exact_scope_evidence_roles:
+- trial_registration
+exemplar_record_id: clinicaltrials_gov:NCT05971030
+exemplar_record_title: Clinical Exploratory Research of Medial Prefrontal Cortex Combined
+  With Dorsolateral Prefrontal Cortex Electrical Stimulation in the Treatment of Alzheimer's
+  Disease
+current_candidate_record_count: 1
+current_candidate_record_ids:
+- clinicaltrials_gov:NCT05971030
+review_flags:
+- single_record_only
+- single_source_only
+- single_evidence_role_only
+caution_flags:
+- retain_watchlist_status
+- do_not_promote_without_new_support
+- single_source_surface
+rationale_points:
+- The current surface contains 1 exact-scope supporting record(s), but only across
+  1 source system(s).
+- The current evidence is strong enough to stay live, but promotion would overstate
+  the public support until a second source appears.
+next_actions:
+- Keep the intervention in the candidate-only layer.
+- Prioritize harvesting a second independent public source that matches the current
+  exact scope.
+- Reopen exact-anchor review only after that second-source support lands.
+repo_paths:
+  review_record: interventions/hypothesis-ledger/watchlist-reviews/records/cortical-brain-stimulation-watchlist-review-v0.yaml
+  review_report: interventions/hypothesis-ledger/watchlist-reviews/reports/cortical-brain-stimulation-watchlist-review-v0.md
+  candidate_review_snapshot: datasets/public-record-derived/linked/alzheimers-public-record-candidate-review-snapshot-v0.json

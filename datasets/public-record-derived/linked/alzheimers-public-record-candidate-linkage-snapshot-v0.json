@@ -1,0 +1,88 @@
+{
+  "candidate_cluster_count": 2,
+  "candidate_clusters": [
+    {
+      "alias_terms": [
+        "cortical brain stimulation",
+        "medial prefrontal cortex",
+        "dorsolateral prefrontal cortex"
+      ],
+      "candidate_link_count": 1,
+      "candidate_links": [
+        {
+          "candidate_score": 1.0,
+          "candidate_tier": "high",
+          "disease_scope": "alzheimers_disease",
+          "evidence_role": "trial_registration",
+          "intervention_or_assay_type": "device_or_stimulation",
+          "record_id": "clinicaltrials_gov:NCT05971030",
+          "record_title": "Clinical Exploratory Research of Medial Prefrontal Cortex Combined With Dorsolateral Prefrontal Cortex Electrical Stimulation in the Treatment of Alzheimer's Disease",
+          "score_components": [
+            "canonical_alias_partial",
+            "title_alias",
+            "intervention_family_alignment",
+            "disease_scope_exact",
+            "preferred_source_system"
+          ],
+          "source_system": "clinicaltrials_gov"
+        }
+      ],
+      "canonical_entity_name": "Cortical Brain Stimulation",
+      "disease_scope": "alzheimers_disease",
+      "exact_anchor_present": false,
+      "intervention_family": "device_or_stimulation",
+      "off_patent_status": "not_applicable",
+      "source_mode": "candidate_only",
+      "source_systems": [
+        "clinicaltrials_gov"
+      ]
+    },
+    {
+      "alias_terms": [
+        "improvisational movement",
+        "dance group",
+        "memory loss caregivers"
+      ],
+      "candidate_link_count": 1,
+      "candidate_links": [
+        {
+          "candidate_score": 1.0,
+          "candidate_tier": "high",
+          "disease_scope": "mild_cognitive_impairment",
+          "evidence_role": "trial_registration",
+          "intervention_or_assay_type": "behavioral_or_lifestyle",
+          "record_id": "clinicaltrials_gov:NCT03333837",
+          "record_title": "Improvisational Movement for People With Memory Loss and Their Caregivers",
+          "score_components": [
+            "canonical_alias_exact",
+            "title_alias",
+            "intervention_family_alignment",
+            "disease_scope_adjacent",
+            "preferred_source_system"
+          ],
+          "source_system": "clinicaltrials_gov"
+        }
+      ],
+      "canonical_entity_name": "Improvisational Movement",
+      "disease_scope": "alzheimers_disease",
+      "exact_anchor_present": false,
+      "intervention_family": "behavioral_or_lifestyle",
+      "off_patent_status": "not_applicable",
+      "source_mode": "candidate_only",
+      "source_systems": [
+        "clinicaltrials_gov"
+      ]
+    }
+  ],
+  "candidate_link_count": 2,
+  "exact_linkage_snapshot_id": "alzheimers_public_record_linkage_snapshot_v0",
+  "generated_from_dataset_id": "alzheimers_public_record_seed_v0",
+  "repo_paths": {
+    "candidate_linkage_snapshot": "datasets/public-record-derived/linked/alzheimers-public-record-candidate-linkage-snapshot-v0.json",
+    "exact_linkage_snapshot": "datasets/public-record-derived/linked/alzheimers-public-record-linkage-snapshot-v0.json",
+    "query_manifest": "datasets/public-record-derived/alzheimers-public-record-query-manifest-v0.yaml",
+    "seed_json": "datasets/public-record-derived/seed/alzheimers-public-record-seed-v0.json"
+  },
+  "snapshot_id": "alzheimers_public_record_candidate_linkage_snapshot_v0",
+  "tracked_intervention_count": 2
+}

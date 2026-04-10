@@ -1,0 +1,53 @@
+review_id: transcranial-direct-current-stimulation_exact_anchor_review_v0
+generated_from_dataset_id: alzheimers_public_record_seed_v0
+promotion_snapshot_id: alzheimers_public_record_exact_anchor_promotion_snapshot_v0
+candidate_review_snapshot_id: alzheimers_public_record_candidate_review_snapshot_v0
+canonical_entity_name: Transcranial Direct Current Stimulation
+review_status: completed
+review_outcome: promote_to_exact_anchor
+decision_confidence: medium
+decision_summary: Promote into exact-anchor review pass. The qualifying support surface
+  is multi-source and includes both AD-specific trial registration and AD-specific
+  publication evidence.
+intervention_family: device_or_stimulation
+disease_scope: alzheimers_disease
+off_patent_status: not_applicable
+source_systems:
+- clinicaltrials_gov
+- pubmed
+evidence_roles:
+- publication_record
+- trial_registration
+support_status: multi_source
+exemplar_record_id: clinicaltrials_gov:NCT01481558
+exemplar_record_title: Effects of Transcranial Direct Current Stimulation on the Apathy
+  of Alzheimer's Disease
+qualifying_support_record_count: 4
+qualifying_support_source_count: 2
+qualifying_support_record_ids:
+- clinicaltrials_gov:NCT01481558
+- pubmed:41809190
+- pubmed:41953054
+- clinicaltrials_gov:NCT02227953
+nonqualifying_related_record_count: 0
+nonqualifying_related_records: []
+caution_flags:
+- promotion_requires_manifest_and_exact-linkage_update
+rationale_points:
+- The qualifying support surface spans both ClinicalTrials.gov and PubMed.
+- The qualifying support includes at least one AD-specific trial-registration record
+  and one AD-specific publication record.
+- The candidate review layer has already cleared this intervention for exact-anchor
+  review, and the detailed packet confirms that judgment on exact-scope records.
+next_actions:
+- Add this intervention to the exact-anchor review pass list in the tracked intervention
+  manifest.
+- Update the exact linkage layer so only the qualifying records are treated as exact-anchor
+  support.
+- Keep excluded or adjacent records visible in review notes, but do not let them silently
+  widen the exact-anchor claim.
+repo_paths:
+  review_record: interventions/hypothesis-ledger/exact-anchor-reviews/records/transcranial-direct-current-stimulation-exact-anchor-review-v0.yaml
+  review_report: interventions/hypothesis-ledger/exact-anchor-reviews/reports/transcranial-direct-current-stimulation-exact-anchor-review-v0.md
+  promotion_snapshot: datasets/public-record-derived/linked/alzheimers-public-record-exact-anchor-promotion-snapshot-v0.json
+  candidate_review_snapshot: datasets/public-record-derived/linked/alzheimers-public-record-candidate-review-snapshot-v0.json

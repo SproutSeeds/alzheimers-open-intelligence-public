@@ -1,0 +1,12 @@
+{
+  "candidate_review_snapshot_id": "alzheimers_public_record_candidate_review_snapshot_v0",
+  "generated_from_dataset_id": "alzheimers_public_record_seed_v0",
+  "promotion_candidate_count": 0,
+  "promotion_candidates": [],
+  "repo_paths": {
+    "candidate_review_snapshot": "datasets/public-record-derived/linked/alzheimers-public-record-candidate-review-snapshot-v0.json",
+    "exact_anchor_promotion_report": "datasets/public-record-derived/linked/alzheimers-public-record-exact-anchor-promotion-report-v0.md",
+    "exact_anchor_promotion_snapshot": "datasets/public-record-derived/linked/alzheimers-public-record-exact-anchor-promotion-snapshot-v0.json"
+  },
+  "snapshot_id": "alzheimers_public_record_exact_anchor_promotion_snapshot_v0"
+}

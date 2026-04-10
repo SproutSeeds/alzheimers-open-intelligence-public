@@ -1,0 +1,246 @@
+$schema: "http://json-schema.org/draft-07/schema#"
+title: Alzheimer's Public Record Linkage Snapshot v0
+type: object
+additionalProperties: false
+required:
+  - snapshot_id
+  - generated_from_dataset_id
+  - row_count
+  - entity_group_count
+  - exact_pubmed_pmc_link_count
+  - exact_pubmed_pmc_links
+  - grant_publication_bridge_count
+  - grants_with_linked_publications_count
+  - sampled_grant_publication_link_count
+  - grant_publication_bridges
+  - intervention_cluster_count
+  - cross_source_intervention_cluster_count
+  - intervention_clusters
+  - multi_source_entity_group_count
+  - multi_source_entity_groups
+  - repo_paths
+properties:
+  snapshot_id:
+    type: string
+    minLength: 1
+  generated_from_dataset_id:
+    type: string
+    minLength: 1
+  row_count:
+    type: integer
+    minimum: 0
+  entity_group_count:
+    type: integer
+    minimum: 0
+  exact_pubmed_pmc_link_count:
+    type: integer
+    minimum: 0
+  exact_pubmed_pmc_links:
+    type: array
+    items:
+      type: object
+      additionalProperties: false
+      required:
+        - pmid
+        - pmcid
+        - pubmed_record_id
+        - pubmed_row_present_in_seed
+        - pmc_record_id
+        - title
+      properties:
+        pmid:
+          type: string
+          minLength: 1
+        pmcid:
+          type: string
+          minLength: 1
+        pubmed_record_id:
+          type: string
+          minLength: 1
+        pubmed_row_present_in_seed:
+          type: boolean
+        pmc_record_id:
+          type: string
+          minLength: 1
+        title:
+          type: string
+          minLength: 1
+  grant_publication_bridge_count:
+    type: integer
+    minimum: 0
+  grants_with_linked_publications_count:
+    type: integer
+    minimum: 0
+  sampled_grant_publication_link_count:
+    type: integer
+    minimum: 0
+  grant_publication_bridges:
+    type: array
+    items:
+      type: object
+      additionalProperties: false
+      required:
+        - grant_record_id
+        - core_project_num
+        - linked_publication_count
+        - sampled_link_count
+        - sampled_publication_links
+      properties:
+        grant_record_id:
+          type: string
+          minLength: 1
+        core_project_num:
+          type: string
+          minLength: 1
+        linked_publication_count:
+          type: integer
+          minimum: 0
+        sampled_link_count:
+          type: integer
+          minimum: 0
+        sampled_publication_links:
+          type: array
+          items:
+            type: object
+            additionalProperties: false
+            required:
+              - pmid
+              - latest_application_id
+              - pubmed_record_id
+              - pubmed_row_present_in_seed
+              - publication_title
+              - publication_year
+            properties:
+              pmid:
+                type: string
+                minLength: 1
+              latest_application_id:
+                oneOf:
+                  - type: integer
+                  - type: string
+              pubmed_record_id:
+                type: string
+                minLength: 1
+              pubmed_row_present_in_seed:
+                type: boolean
+              publication_title:
+                type: string
+                minLength: 1
+              publication_year:
+                type: integer
+                minimum: 1900
+                maximum: 2100
+  intervention_cluster_count:
+    type: integer
+    minimum: 0
+  cross_source_intervention_cluster_count:
+    type: integer
+    minimum: 0
+  intervention_clusters:
+    type: array
+    items:
+      type: object
+      additionalProperties: false
+      required:
+        - canonical_entity_name
+        - alias_terms
+        - linked_record_count
+        - source_systems
+        - evidence_roles
+        - matched_records
+      properties:
+        canonical_entity_name:
+          type: string
+          minLength: 1
+        alias_terms:
+          type: array
+          items:
+            type: string
+            minLength: 1
+        linked_record_count:
+          type: integer
+          minimum: 0
+        source_systems:
+          type: array
+          items:
+            type: string
+            minLength: 1
+        evidence_roles:
+          type: array
+          items:
+            type: string
+            minLength: 1
+        matched_records:
+          type: array
+          items:
+            type: object
+            additionalProperties: false
+            required:
+              - record_id
+              - source_system
+              - evidence_role
+              - record_title
+              - match_type
+            properties:
+              record_id:
+                type: string
+                minLength: 1
+              source_system:
+                type: string
+                minLength: 1
+              evidence_role:
+                type: string
+                minLength: 1
+              record_title:
+                type: string
+                minLength: 1
+              match_type:
+                type: string
+                minLength: 1
+  multi_source_entity_group_count:
+    type: integer
+    minimum: 0
+  multi_source_entity_groups:
+    type: array
+    items:
+      type: object
+      additionalProperties: false
+      required:
+        - display_name
+        - record_count
+        - source_systems
+        - evidence_roles
+      properties:
+        display_name:
+          type: string
+          minLength: 1
+        record_count:
+          type: integer
+          minimum: 0
+        source_systems:
+          type: array
+          items:
+            type: string
+            minLength: 1
+        evidence_roles:
+          type: array
+          items:
+            type: string
+            minLength: 1
+  repo_paths:
+    type: object
+    additionalProperties: false
+    required:
+      - seed_json
+      - query_manifest
+      - linkage_snapshot
+    properties:
+      seed_json:
+        type: string
+        minLength: 1
+      query_manifest:
+        type: string
+        minLength: 1
+      linkage_snapshot:
+        type: string
+        minLength: 1

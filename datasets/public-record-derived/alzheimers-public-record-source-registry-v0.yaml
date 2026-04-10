@@ -1,0 +1,73 @@
+schema_version: v0
+registry_id: alzheimers_public_record_source_registry_v0
+active_dataset_object: alzheimers_public_record_intervention_and_biomarker_dataset
+sources:
+  - source_system: clinicaltrials_gov
+    provider: U.S. National Library of Medicine
+    source_home_url: https://clinicaltrials.gov/
+    programmatic_surface_url: https://clinicaltrials.gov/data-api/about-api
+    access_mode: public_api
+    primary_record_types:
+      - trial_registration
+      - study_metadata
+    alzheimers_fit:
+      - intervention_names
+      - sponsor_metadata
+      - phase_and_status
+      - outcome_measures
+    retrieval_notes: Use the official data API and study data structure docs.
+  - source_system: pubmed
+    provider: National Center for Biotechnology Information
+    source_home_url: https://pubmed.ncbi.nlm.nih.gov/
+    programmatic_surface_url: https://www.ncbi.nlm.nih.gov/books/NBK25501/
+    access_mode: public_api
+    primary_record_types:
+      - publication_metadata
+      - abstract_record
+    alzheimers_fit:
+      - literature_mapping
+      - biomarker_queries
+      - intervention_queries
+      - pmid_linkage
+    retrieval_notes: Use NCBI E-utilities and keep query provenance explicit.
+  - source_system: pmc_open_access_subset
+    provider: National Center for Biotechnology Information
+    source_home_url: https://pmc.ncbi.nlm.nih.gov/
+    programmatic_surface_url: https://pmc.ncbi.nlm.nih.gov/tools/openftlist/
+    access_mode: public_bulk_and_api
+    primary_record_types:
+      - open_access_full_text
+      - article_xml
+    alzheimers_fit:
+      - full_text_extraction
+      - license_scoped_text_mining
+      - figure_and_table_context
+    retrieval_notes: Use only PMC-approved automated retrieval services and respect per-article license terms.
+  - source_system: nih_reporter
+    provider: National Institutes of Health
+    source_home_url: https://reporter.nih.gov/
+    programmatic_surface_url: https://api.reporter.nih.gov/?urls.primaryName=V2.0
+    access_mode: public_api
+    primary_record_types:
+      - grant_record
+      - linked_publication_record
+    alzheimers_fit:
+      - funding_context
+      - project_abstracts
+      - organization_context
+      - publication_linkage
+    retrieval_notes: Follow NIH request-rate guidance for API usage.
+  - source_system: openfda
+    provider: U.S. Food and Drug Administration
+    source_home_url: https://www.fda.gov/science-research/health-informatics-fda/openfda
+    programmatic_surface_url: https://open.fda.gov/apis/
+    access_mode: public_api
+    primary_record_types:
+      - drug_label
+      - adverse_event_signal
+      - enforcement_record
+    alzheimers_fit:
+      - label_context
+      - safety_signals
+      - identifier_harmonization
+    retrieval_notes: Public API with rate limits; useful for label and safety context, not clinical decision making.
