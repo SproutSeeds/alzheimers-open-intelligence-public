@@ -11,6 +11,7 @@ the private upstream research workspace.
 - [Public Evidence Seed v0](docs/releases/public-evidence-seed-v0.md)
 - [How to use the release](docs/how-to-use-public-evidence-seed-v0.md)
 - [Citation metadata](CITATION.cff)
+- [Hugging Face dataset card draft](docs/releases/hugging-face-dataset-card-public-evidence-seed-v0.md)
 
 ## What This Repo Contains
 
@@ -51,6 +52,25 @@ The working model is:
 - public downstream scientific release repo
 
 This repository is the downstream public side of that model.
+
+## Licensing
+
+- Code, scripts, and schemas: Apache-2.0
+- Public-facing release materials: CC BY 4.0
+
+See:
+
+- `LICENSE`
+- `LICENSE-docs.md`
+
+## Distribution
+
+The recommended multi-channel distribution stack for each release is:
+
+- GitHub release
+- Zenodo archival DOI
+- frg.earth release page
+- Hugging Face dataset mirror
 
 ## Repository
 

@@ -1,0 +1,22 @@
+{
+  "title": "Alzheimer's Open Intelligence: Public Evidence Seed v0",
+  "upload_type": "software",
+  "description": "A public-record-derived Alzheimer's evidence substrate built from official public sources including ClinicalTrials.gov, PubMed, PMC Open Access, NIH RePORTER, and openFDA. This release includes a linked seed dataset, linkage artifacts, exact-anchor intervention review records, and watchlist review records for unresolved candidates.",
+  "creators": [
+    {
+      "name": "Mitchell, Cody",
+      "affiliation": "Fractal Research Group LLC"
+    }
+  ],
+  "license": "Apache-2.0",
+  "keywords": [
+    "Alzheimer's disease",
+    "biomedical informatics",
+    "public datasets",
+    "literature mining",
+    "clinical trials",
+    "biomarkers",
+    "intervention triage"
+  ],
+  "access_right": "open"
+}
