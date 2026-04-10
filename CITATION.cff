@@ -4,6 +4,8 @@ title: "Alzheimer's Open Intelligence: Public Evidence Seed v0"
 type: software
 version: "v0"
 date-released: 2026-04-10
+doi: "10.5281/zenodo.19502035"
+license: Apache-2.0
 abstract: >-
   A public-record-derived Alzheimer's evidence substrate built from official
   public sources including ClinicalTrials.gov, PubMed, PMC Open Access, NIH
@@ -24,3 +26,12 @@ keywords:
   - clinical trials
   - biomarkers
   - intervention triage
+preferred-citation:
+  type: dataset
+  title: "Alzheimer's Open Intelligence: Public Evidence Seed v0"
+  authors:
+    - family-names: Mitchell
+      given-names: Cody
+  year: 2026
+  publisher: "Fractal Research Group LLC"
+  doi: "10.5281/zenodo.19502035"

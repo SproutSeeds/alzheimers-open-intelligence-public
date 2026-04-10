@@ -35,6 +35,10 @@ GitHub release:
 
 - <https://github.com/SproutSeeds/alzheimers-open-intelligence-public/releases/tag/public-evidence-seed-v0>
 
+Archival DOI:
+
+- <https://doi.org/10.5281/zenodo.19502035>
+
 Research stewardship:
 
 - Fractal Research Group LLC

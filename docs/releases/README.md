@@ -17,6 +17,8 @@ moment.
 ## Current Release
 
 - [Public Evidence Seed v0](public-evidence-seed-v0.md)
+- DOI: [10.5281/zenodo.19502035](https://doi.org/10.5281/zenodo.19502035)
+- Zenodo record: <https://zenodo.org/records/19502035>
 
 ## Related Docs
 

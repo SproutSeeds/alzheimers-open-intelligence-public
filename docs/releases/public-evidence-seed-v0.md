@@ -42,6 +42,11 @@ Core release artifacts:
 - [Exact-anchor review index](../../interventions/hypothesis-ledger/exact-anchor-reviews/exact-anchor-review-index-v0.md)
 - [Watchlist review index](../../interventions/hypothesis-ledger/watchlist-reviews/watchlist-review-index-v0.md)
 
+Archival record:
+
+- DOI: [10.5281/zenodo.19502035](https://doi.org/10.5281/zenodo.19502035)
+- Zenodo record: <https://zenodo.org/records/19502035>
+
 Reproducibility artifacts:
 
 - [Seed dataset builder](../../scripts/build_public_record_seed_dataset.py)
@@ -106,7 +111,7 @@ Please cite this release using the metadata in [CITATION.cff](../../CITATION.cff
 Suggested short citation text:
 
 Alzheimer's Open Intelligence: Public Evidence Seed v0. Cody Mitchell, Fractal
-Research Group LLC, 2026.
+Research Group LLC, 2026. <https://doi.org/10.5281/zenodo.19502035>
 
 ## Next Direction
 

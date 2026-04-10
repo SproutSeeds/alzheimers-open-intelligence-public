@@ -71,3 +71,5 @@ The `Public Evidence Seed v0` release includes:
 ## Citation
 
 Please cite the release using the repository `CITATION.cff` metadata.
+
+DOI: <https://doi.org/10.5281/zenodo.19502035>
