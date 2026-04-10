@@ -22,3 +22,8 @@ moment.
 
 - [Public Scientific Release Plan](../public-scientific-release-plan.md)
 - [How To Use Public Evidence Seed v0](../how-to-use-public-evidence-seed-v0.md)
+- [Announcement Post](announcement-post-public-evidence-seed-v0.md)
+- [Collaboration Brief](collaboration-brief-public-evidence-seed-v0.md)
+- [frg.earth Release Page Draft](frg-earth-public-evidence-seed-v0.md)
+- [Hugging Face Dataset Card Draft](hugging-face-dataset-card-public-evidence-seed-v0.md)
+- [Zenodo Handoff](zenodo-handoff-public-evidence-seed-v0.md)
